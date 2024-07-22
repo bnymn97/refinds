@@ -1,0 +1,56 @@
+#navigationbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c3e50;
+}
+
+#suche {
+  display: flex;
+  height: 30px;
+  margin-top: 20px;
+}
+
+#suchleiste {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#suchleiste:focus {
+  outline: none;
+}
+
+#suchButton {
+  background-color: #00ff66;
+  border: none;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+#suchButton:hover {
+  background-color: #02d155;
+  cursor: pointer;
+}
+
+.logo {
+  height: 70px;
+  margin-right: 300px;
+}
+
+#buttonContainer {
+  display: flex;
+  height: 30px;
+  margin-top: 20px;
+}
+
+#buttons {
+  background-color: #2c3e50;
+  border: none;
+  color: #00ff66;
+}
+
+#buttons:hover {
+  cursor: pointer;
+  color: #02d155;
+}
